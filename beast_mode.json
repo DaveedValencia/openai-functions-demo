@@ -1,0 +1,18 @@
+{
+  "name": "beast_mode",
+  "description": "It passes the user input when beast mode is requested. You will get back an answer. Do not change the response, give it back to the user the same way it is presented to you.",
+  "strict": true,
+  "parameters": {
+    "type": "object",
+    "required": [
+      "user_input"
+    ],
+    "properties": {
+      "user_input": {
+        "type": "string",
+        "description": "The input provided by the user in beast mode"
+      }
+    },
+    "additionalProperties": false
+  }
+}
